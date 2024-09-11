@@ -1,0 +1,15 @@
+h1 {
+  font-size: 3.2em;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #c0cace;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #4049f5;
+}

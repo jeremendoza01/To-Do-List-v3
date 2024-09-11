@@ -1,0 +1,42 @@
+.input-add {
+    padding: 0.8em 0em;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 1px black solid;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 1em;
+}
+
+.form {
+    display: flex;
+}
+
+.button-81 {
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid #d8e1ee;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 4px 4px 6px rgba(166, 175, 195, 0.25);
+    user-select: none;
+}
+
+.button-81:hover {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .button-81 {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+}
